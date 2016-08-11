@@ -191,7 +191,7 @@ elseif ( $Version -eq "7.0.1" )
 {
   $msg =  "Setting files for $Version";$BackgroundColor = "Black";$ForegroundColor = "Green";Write-Feedback
   $bootstrapFile="https://" + $vRAurl + ":5480/service/software/download/vmware-vra-software-agent-bootstrap-windows_7.0.0.0.zip"
-  $agentFile="https://" + $vRAurl + ":5480/service/software/download/GuestAgentInstaller_x64.exe"
+  $agentFile="https://" + $vRAurl + ":5480/installer/GuestAgentInstaller_x64.exe"
   $javaFile="https://" + $vRAurl + ":5480/service/software/download/jre-1.8.0_72-win64.zip"
 }
 else
@@ -199,7 +199,7 @@ else
   $msg =  "Setting files for $Versoin";$BackgroundColor = "Black";$ForegroundColor = "Green";Write-Feedback
   $bootstrapFile="https://" + $vRAurl + "/software/download/vmware-vra-software-agent-bootstrap-windows_7.1.0.0.zip"
   $agentFile="https://" + $vRAurl + "/software/download/GuestAgentInstaller_x64.exe"
-  $javaFile="https://" + $vRAurl + "/software/download/jre-1.8.0_92-win64.zip"
+  $javaFile="https://" + $vRAurl + "/software/download/jre-1.8.0_102-win64.zip"
 }
 
 $msg =  "Creating directory structure needed";$BackgroundColor = "Black";$ForegroundColor = "Yellow";Write-Feedback
